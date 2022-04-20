@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    padding: 20px;
+}
+
+
+.contant{
+    text-align: center;
+    width: 100%;
+    padding: 100px 30px 50px 30px;
+}
+
+.programming-languages{
+    margin: 50px 20px 50px 20px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(240, 233, 233);
+    box-shadow: 10px 10px 8px gray;
+    border-radius: 20px;
+    display: inline-block;
+}
