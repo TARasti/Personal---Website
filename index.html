@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanveer's Profile</title>
+    <script>
+        function onHover() {
+            text = "I'm Tanveer Ahmed Khan";
+            document.getElementById("intro-js").innerHTML = "";
+            let t = 0;
+            document.getElementById("intro-js").onmouseover = '';
+            setInterval(function () {
+                if (t === text.length) {
+
+                    return
+                }
+                else {
+                    document.getElementById("intro-js").innerHTML += text[t];
+                    t = t + 1;
+                }
+
+            }, 200);
+        }
+    </script>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cormorant+Garamond&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="m1" class="menu"></label>
+        <label for="m1" class="menu"><img src="assets/menu.png" alt="menu"></label>
+        <a href="index.html"> <img class="brand" src="assets/profile.png" alt="brand"></a>
+        <ul id="items">
+            <li><a class="btn" href="#work">Work</a></li>
+            <li><a class="btn" href="public/skills.html">Skills</a></li>
+            <li><a class="btn" href="public/education.html">Education</a></li>
+            <li><a class="btn" href="public/about.html">About</a></li>
+            <li><a class="btn" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="upper">
+        <!-- <img src="assets/img02.jpg" alt="backimg" srcset="" width="100%"> -->
+        <div class="intro">
+            <h1 id="intro-js" onmouseover="onHover()">I'm Tanveer Ahmed Khan</h1>
+            <h3>a <i><u>pro</u>grammer</i>.</h3>
+        </div>
+
+    </div>
+    <hr>
+    <div class="profile">
+        <img id="profile-img" src="assets/profile.png" alt="profile">
+        <h3>Profile</h3>
+        <p>Welcome:)</p>
+        <p>I am Tanveer Ahmed Khan. I'm studying <em>BS in Computer and Information Sciences</em> from <a
+                href="http://www.pieas.edu.pk">PIEAS</a> and I'm programmer.
+            I also love to play <em>E-Games</em>.</p>
+    </div>
+    <hr>
+    <div class="project" id="work">
+        <img class="floating" src="assets/python.png" alt="python" srcset="">
+        <h3>Python Projects</h3>
+        <h4>App Manager</h4>
+        <p>Manages App, Access all apps at one place and launch by click</p>
+        <h4>IM Scraper</h4>
+        <p>Scrape images from Instagram, Facebook and YouTube</p>
+
+        <h4>SpeedTyping</h4>
+
+        <p>SpeedTyping is application, where you can test and improve your typing speed</p>
+        <h4>Image Resizing</h4>
+        <p>In Image Resizing you can change resolution of your image</p>
+        <h4>Discord Bot</h4>
+        <p>Discord Bot can keep track of all chats in chat room and ban or unban users if they are spamming</p>
+    </div>
+    <hr>
+    <div class="project">
+        <img class="floating" src="assets/flutter.png" alt="python" srcset="">
+        <h3>Flutter Projects</h3>
+        <h4>Keynotes</h4>
+        <p>An app for storing notes featuring different styles and color</p>
+        <h4>Events</h4>
+        <p>Design frontend for app that handle all events and notify/remind user about specific event</p>
+    </div>
+    <hr>
+    <div class="footer" id="contact">
+        <h3>Contacts</h3>
+        <img class="cont" src="assets/linkedin.png" alt="linkedin" srcset="">
+        <img class="cont" src="assets/github.png" alt="github" srcset="">
+        <img class="cont" src="assets/mail.png" alt="email">
+        <p class="end">Copyright © 2022, <em>Developed by Tanveer Ahmed Khan</em></p>
+    </div>
+</body>
+
+</html>
