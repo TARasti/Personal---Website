@@ -192,6 +192,7 @@ nav{
 }
 
 .intro{
+    z-index: -1;
     position: relative;
     margin: auto;
     top: 40%;
