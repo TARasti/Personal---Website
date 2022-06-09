@@ -184,7 +184,7 @@ nav{
     padding: 10px 10px 10px 10px;
     text-align: center;
     background-color: #eee7e3;
-    height: 100%;
+    height: 120%;
 }
 
 .floating{
@@ -215,6 +215,25 @@ nav{
     font-size: 0.5rem;
 }
 
+
+.cont{
+    margin: 0%;
+    border-style: none;
+    background-color: transparent;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    top: 0px;
+}
+
+.cont:hover{
+    color: #334443;
+    top: -5px;
+    cursor: pointer;
+}
 
 /* ############# ID ############### */
 
